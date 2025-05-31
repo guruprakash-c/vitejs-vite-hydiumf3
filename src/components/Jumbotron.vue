@@ -1,23 +1,19 @@
 <template>
 <section class="page-header">
-    <h1 class="page-title">The Bootstrap Blog</h1>
-    <p class="lead page-description">The official example template of creating a blog with Bootstrap.</p>
+    <h1 class="page-title">The Progressive
+JavaScript Framework</h1>
+    <p class="lead page-description">An approachable, performant and versatile framework for building web user interfaces.</p>
 </section>
 </template>
 
 <style>
 .page-header {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: .3rem;
 }
 .page-title {
-  margin-top: 30px;
-  margin-bottom: 0;
-  font-size: 60px;
-  font-weight: 400;
+  font-weight: 900;
 }
 .page-description {
-  font-size: 20px;
-  color: #999;
+  color: #000;
 }
 </style>

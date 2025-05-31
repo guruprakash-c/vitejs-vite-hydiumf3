@@ -1,5 +1,5 @@
 <template>
-<aside class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
+<aside class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
     <div class="widget widget-inset">
         <h4>About</h4>
         <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
@@ -38,8 +38,9 @@
 }
 .widget-inset {
   padding: 15px;
-  background-color: #f5f5f5;
-  border-radius: 4px;
+  background: #647eff;
+  color: #fff;
+  border-radius: 12px 12px 0 12px;
 }
 .widget-inset p:last-child,
 .widget-inset ul:last-child,

@@ -2,9 +2,9 @@
 import Sidebar from './Sidebar.vue';
 </script>
 <template>
-    <main class="col-lg-8 col-md-12 col-xs-12  col-sm-12">
+    <main class="col-lg-8 col-md-8 col-xs-12  col-sm-12">
         <div class="blog-post">
-        <h2 class="blog-post-title">Sample blog post</h2>
+        <h2 class="blog-post-title"><a href="#">Sample blog post</a></h2>
         <p class="blog-post-meta">January 1, 2014 by <a href="#">Mark</a></p>
 
         <p>This blog post shows a few different types of content that's supported and styled with Bootstrap. Basic typography, images, and code are all supported.</p>
@@ -39,15 +39,18 @@ import Sidebar from './Sidebar.vue';
     <Sidebar/>
 </template>
 <style>
+main{
+  padding: 2rem;
+}
 .blog-post {
-  margin-bottom: 60px;
+  background: #fff;
+  padding: 2rem;
 }
 .blog-post-title {
   margin-bottom: 5px;
-  font-size: 40px;
 }
 .blog-post-meta {
   margin-bottom: 20px;
-  color: #999;
+  color: #000;
 }
 </style>

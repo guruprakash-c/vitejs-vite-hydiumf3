@@ -1,20 +1,21 @@
 <template>
     <footer>
-      <p>Blog template built for <a href="https://getbootstrap.com/">Bootstrap</a> by <a href="https://twitter.com/mdo">@mdo</a>.</p>
+      <p>Blog template built for <a href="/">VueJs Course</a> by <a href="https://devstoc.com/">DEVstoc</a>.</p>
       <p>
-        <a href="#">Back to top</a>
+        <a href="javascript:void(0);" target="_top">Back to top</a>
       </p>
     </footer>
 </template>
 <style>
 footer {
   padding: 40px 0;
-  color: #999;
-  text-align: center;
-  background-color: #f9f9f9;
-  border-top: 1px solid #e5e5e5;
+  color: #fff;
+  text-align: center;  
+  border: 2px solid #42d392;
+  background: linear-gradient(45deg , #42d392,#647eff);
 }
-footer p:last-child {
-  margin-bottom: 0;
+footer a {
+  color: #fff;
+  text-decoration: underline;
 }
 </style>

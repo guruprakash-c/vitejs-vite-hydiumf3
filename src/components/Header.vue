@@ -1,8 +1,12 @@
+<script setup>
+</script>
 <template>
 <header>
   <div class="container">
     <nav class="blog-nav">
-      <a class="blog-nav-item active" href="#">VueJs</a>
+      <a class="blog-nav-item active" href="#">
+        <img src="/src/assets/vue.svg" width="25" class="align-middle me-1"/>VueJS
+      </a>
       <a class="blog-nav-item" href="#">New features</a>
       <a class="blog-nav-item" href="#">Press</a>
       <a class="blog-nav-item" href="#">New hires</a>
