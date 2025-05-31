@@ -14,7 +14,7 @@ const Adduser = () => {
 
 <template>
     <article>
-        <h1>Reactive Components</h1>
+        <h1>reactive()</h1>
         <h2>initial value: {{ initial.val.count }}</h2>
         <pre>initial users: {{ initial.users }}</pre>
         <div class="btn-group">
