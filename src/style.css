@@ -26,10 +26,10 @@ h6, .h6 {
     width: 970px;
   }
 }
-a{
+/*a{
   color: #647eff;
   text-decoration: none;
-}
+}*/
 a:focus{
   text-decoration: underline;
 }

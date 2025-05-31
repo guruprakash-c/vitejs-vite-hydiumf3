@@ -1,16 +1,40 @@
 <script setup>
+import { ref } from 'vue'; 
+const pages = ref([
+  {
+    title: 'Components',
+    url: '/Components',
+    target: '_top',
+    className: 'blog-nav-item'
+  },
+  {
+    title: 'Renders',
+    url: '/renders',
+    target: '_top',
+    className: 'blog-nav-item'
+  },
+  {
+    title: 'Hooks',
+    url: '/hooks',
+    target: '_top',
+    className: 'blog-nav-item'
+  },
+  {
+    title: 'Support',
+    url: 'https://vuejs.org',
+    target: '_blank',
+    className: 'blog-nav-item'
+  }
+]);
 </script>
 <template>
 <header>
   <div class="container">
     <nav class="blog-nav">
-      <a class="blog-nav-item active" href="#">
+      <a class="blog-nav-item active" href="/">
         <img src="/src/assets/vue.svg" width="25" class="align-middle me-1"/>VueJS
       </a>
-      <a class="blog-nav-item" href="#">New features</a>
-      <a class="blog-nav-item" href="#">Press</a>
-      <a class="blog-nav-item" href="#">New hires</a>
-      <a class="blog-nav-item" href="#">About</a>
+      <a :class="className" v-for="({title, url, target, className},i) in pages" :key="i" :href="url" :target="target">{{title}}</a>
     </nav>
   </div>
 </header>
@@ -28,12 +52,12 @@ header {
   display: inline-block;
   padding: 10px;
   font-weight: 500;
-  color: #cdddeb;
+  color: #cdddeb !important;
   text-decoration: none
 }
 .blog-nav-item:hover,
 .blog-nav-item:focus {
-  color: #fff;
+  color: #fff !important;
   text-decoration: none;
 }
 
