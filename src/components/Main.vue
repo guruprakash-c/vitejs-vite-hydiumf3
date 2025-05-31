@@ -39,12 +39,10 @@ import Sidebar from './Sidebar.vue';
     <Sidebar/>
 </template>
 <style>
-main{
-  padding: 2rem;
-}
 .blog-post {
   background: #fff;
   padding: 2rem;
+
 }
 .blog-post-title {
   margin-bottom: 5px;
